@@ -1,0 +1,428 @@
+* {
+    margin: 0 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F1EAE4;
+    color: #1D1B19;
+    margin: 0 140px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Selna';
+    font-weight: 400;
+    font-size: 55.9025px;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 400;
+    color: #1D1B19;
+    padding-right: 30px;
+}
+nav img {
+    height: 2em;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.start-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-side img {
+    width: 100%;
+    /* height: 800px; */
+    
+}
+.right-side {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.right-side a {
+    padding-top: 3em;
+    color: #1D1B19;
+    text-decoration: none;
+    border-bottom: 1px solid #5e5c5b;
+}
+
+.star {
+    height: 50px;
+}
+
+h1 {
+    font-family: 'Selna';
+    font-size: 63px;
+    font-weight: 300;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* main */
+
+main {
+    margin: 0 3em;
+    height: 4950px;
+}
+
+.favorites-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6em 0;
+}
+
+.favorites-nav a {
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1783px;
+    color: #1D1B19;
+    border-bottom: 1px solid #1D1B19;
+    padding-bottom: 5px;
+}
+
+.favorites-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 1200px;
+    flex-wrap: wrap;
+}
+
+.favorites-card-mid {
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+.favorites-card {
+    
+    /* width: 422px; */
+    /* height: 100%; */
+}
+
+.favorites-card img{
+    /* width: 422px;
+    height: 524px; */
+    width: 100%;
+}
+
+.favorites-card-info {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #1D1B19;
+    margin: 0.5em 0;
+}
+
+.favorites-card-price {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.2035px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: rgba(29, 27, 25, 0.72);
+}
+
+
+/* menu */
+
+.menu {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+    /* min-width: 600; */
+}
+
+.menu-left .menu-right img{
+    width: 100%;
+} 
+
+.menu-right{
+    align-self: flex-end;
+}
+
+.menu-mid {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-mid a {
+    font-family: 'Selna';
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 56.377px;
+    line-height: 96px;
+    text-transform: uppercase;
+    color: #1D1B19;
+}
+
+
+
+/* about */
+
+
+.about {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+}
+
+.about-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-left p {
+    font-family: 'Helvetica';
+    font-size: 27px;
+    line-height: 158.9%;
+    text-transform: lowercase;
+    color: #1D1B19;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.about-left a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1783px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1D1B19;
+    border-bottom: 1px solid #4b4747;
+    width: 123px;
+    padding-bottom: 3px;
+}
+
+.about-right img {
+    /* height: 764px; */
+    width: 100%;
+    border-radius: 300px 300px 0 0;
+}
+
+
+/* newsletter */
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+
+.newsletter-h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.letter-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 12em;
+}
+
+.letter {
+    border: 0;
+    border-bottom: 2px solid #4b4747;
+    padding-bottom: 10px;
+    width: auto;
+}
+
+/* .letter-label {
+    display: flex;
+    justify-content: space-between;
+} */
+
+input[type="email"] {
+    width: 32rem;
+    background-color: #F1EAE4;
+    border: 0;
+    font-size: 20px;
+}
+
+
+input[type="email"]:focus {
+    outline: none;
+    background-color: #F1EAE4;
+
+}
+
+
+
+input[type="submit"] {
+    /* width: 32rem; */
+    border: 0;
+    background-color: #F1EAE4;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* follow */
+
+.follow {
+    margin-top: 12em;
+}
+
+.follow-h {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 6em;
+}
+
+.follow-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.follow-container img {
+    width: 100%;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 120px;
+    height: 310px;
+    background-color: #F1EAE4;
+}
+
+
+.footer-div-links {
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr 2fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(25%, 1fr)); */
+    
+}
+
+.logo {
+    display: flex;
+}
+
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+}
+.row3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div-links a {
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off, 'calt' off;
+    color: #1D1B19;
+}
+
+.footer-info {
+    font-family: 'Selna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.582px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    word-spacing: 0.3em;
+    color: #1D1B19;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1232px) {
+    .menu {
+        margin-top: 700px;
+        margin-bottom: 350px;
+    }
+    .footer-div-links {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      
+}
+
+@media (max-width: 900px) {
+    .footer-div-links {
+      grid-template-columns: 1fr 2fr
+    }
+    
+}
+
+
